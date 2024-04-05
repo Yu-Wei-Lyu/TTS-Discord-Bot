@@ -12,30 +12,30 @@
           "name": "/help",
           "value": "**[?]** 列出該指令清單",
           "inline": false
-        },
+        },       
         {
-          "name": "/show",
-          "value": "**[/]** 顯示記事清單",
+          "name": "/join",
+          "value": "**[j]** 加入你目前的語音室",
           "inline": false
-        },
+        },   
         {
-          "name": "/add",
-          "value": "**[+]** 增加記事",
+          "name": "/leave",
+          "value": "**[l]** 退出語音室",
           "inline": false
-        },
+        },   
         {
-          "name": "/update <pos>",
-          "value": "**[*]** 更新記事",
-          "inline": false
-        },
-        {
-          "name": "/del <pos>",
-          "value": "**[-]** 刪除記事",
+          "name": "/tts <content>",
+          "value": "**[t]** 將你輸入的文字 在語音室裡播放",
           "inline": false
         },
         {
           "name": "/say <content>",
-          "value": "**[c]** 讓BOT替你說話 (匿名制 趣味功能)",
+          "value": "**[s]** 將你輸入的文字 交給BOT來說",
+          "inline": false
+        },  
+        {
+          "name": "關鍵字",
+          "value": "**[k]** 根據關鍵字讓BOT發出圖片",
           "inline": false
         }
       ]

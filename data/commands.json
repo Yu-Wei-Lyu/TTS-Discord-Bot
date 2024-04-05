@@ -1,0 +1,26 @@
+{
+    "commands": [
+        {
+            "name": "say",
+            "description": "[s] 讓BOT替你說話",
+            "options": [{
+                    "name": "content",
+                    "description": "文字內容",
+                    "type": 3,
+                    "required": true
+            }]
+        },
+        {
+            "name": "help",
+            "description": "[?] 列出該指令清單"
+        },
+        {
+            "name": "join",
+            "description": "[+] 加入語音室"
+        },
+        {
+            "name": "speak",
+            "description": "[vc] 讓BOT幫你在語音室發言"
+        }
+    ]
+}

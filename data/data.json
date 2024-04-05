@@ -1,0 +1,21 @@
+{
+  "chat_react": [
+    {
+      "name": "dog",
+      "react": "https://cdn.discordapp.com/attachments/1075254787307749427/1116177328024846377/dog_point_at_you.png"
+    },
+    {
+      "name": "eatfast",
+      "react": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
+    }
+  ],
+  "temporary": {
+    "addSubmitData": {},
+    "updateSubmitData": {},
+    "updatePosition": 0
+  },
+  "activities": {
+    "lastUpdated": "2023/11/18 00:00:00",
+    "data": []
+  }
+}

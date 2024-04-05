@@ -1,0 +1,44 @@
+{
+  "helpEmbed": {
+    "embeds": [{
+      "title": "指令清單",
+      "color": "16776960",
+      "footer":{
+        "text":"任何疑問私訊 Discord ID: yd7_ywl",
+        "icon_url":"https://cdn.discordapp.com/attachments/690183512380538911/1127197760630829137/1024px-Information.png"
+      },
+      "fields": [
+        {
+          "name": "/help",
+          "value": "**[?]** 列出該指令清單",
+          "inline": false
+        },
+        {
+          "name": "/show",
+          "value": "**[/]** 顯示記事清單",
+          "inline": false
+        },
+        {
+          "name": "/add",
+          "value": "**[+]** 增加記事",
+          "inline": false
+        },
+        {
+          "name": "/update <pos>",
+          "value": "**[*]** 更新記事",
+          "inline": false
+        },
+        {
+          "name": "/del <pos>",
+          "value": "**[-]** 刪除記事",
+          "inline": false
+        },
+        {
+          "name": "/say <content>",
+          "value": "**[c]** 讓BOT替你說話 (匿名制 趣味功能)",
+          "inline": false
+        }
+      ]
+    }]
+  }
+}

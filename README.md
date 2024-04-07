@@ -5,7 +5,7 @@ Welcome to the TTS Discord Bot! This bot is designed to enhance your Discord ser
 
 ## Features
 1. **Text-to-Speech Functionality (In Development)**
-   - Command: `/tts [content]`
+   - Command: `/speak [content]`
    - Description: Convert text messages into speech and play them in the voice channel.
    
 2. **Send Images Using Text**

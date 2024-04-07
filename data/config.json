@@ -24,7 +24,7 @@
           "inline": false
         },   
         {
-          "name": "/tts <content>",
+          "name": "/speak <content>",
           "value": "**[t]** 將你輸入的文字 在語音室裡播放",
           "inline": false
         },

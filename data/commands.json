@@ -17,10 +17,22 @@
         {
             "name": "join",
             "description": "[+] 加入語音室"
+        },        
+        {
+            "name": "leave",
+            "description": "[-] 離開語音室"
         },
         {
             "name": "speak",
-            "description": "[vc] 讓BOT幫你在語音室發言"
+            "description": "[vc] 讓BOT幫你在語音室發言",
+            "options": [
+                {
+                    "name": "content",
+                    "description": "要讓 bot 說的文字訊息",
+                    "type": 3,
+                    "required": true
+                }
+            ]
         }
     ]
 }

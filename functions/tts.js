@@ -12,7 +12,7 @@ module.exports = {
         const outputPath = path.join(__dirname, '..', 'Audios', 'output.mp3'); 
 
         // 定義 Google TTS 的 URL
-        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=zh-TW&q=${encodeURIComponent(text)}`;
+        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=${encodeURIComponent(text)}`;
 
         try {
             // 發送 GET 請求獲取音檔

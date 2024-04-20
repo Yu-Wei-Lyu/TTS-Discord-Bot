@@ -11,8 +11,5 @@ module.exports = {
      */
     execute(client) {
         functions.consoleLog(`Logged in as ${client.user.tag}!`); // 輸出機器人登入資訊
-        const uploadPresence = new CronJob('0 */30 * * * *', function () { // 創建定時任務，每 30 分鐘執行一次
-            client.user.setPresence(BotPresence); // 設定機器人的在線狀態
-        }, null, true, "Asia/Taipei"); // 設定定時任務的時區為亞洲/台北
     },
 };

@@ -20,9 +20,13 @@ module.exports = {
             const language = functions.getJSON("data", "VoiceChatLanguage");
 
             try {
-                // 創建音頻播放器，下載文字轉語音的音頻檔案
+                // 創建音頻播放器，並取得語句和語言
                 const audioPlayer = createAudioPlayer(); 
-                await textToSpeech.downloadTTS(text, language);
+                const targetLanguage = functions.getJSON("data", "LanguageOptions")[language];
+                const finalParagraph = `${interaction.member.displayName}${targetLanguage.ParagraphHeader}: ${text}`;
+
+                // 下載文字轉語音的音頻檔案
+                await textToSpeech.downloadTTS(finalParagraph, language);
 
                 // 取得音頻資源並撥放至語音室
                 const audioResource = createAudioResource(textToSpeech.getAudioPath()); 
@@ -30,15 +34,15 @@ module.exports = {
                 connection.subscribe(audioPlayer);
 
                 // 記錄機器人說話的內容、回覆使用者成功撥放音頻的資訊
-                functions.consoleLog(`Bot 說出了: ${text}`); 
-                await interaction.reply(`Bot 說出了: ${text}`);
+                functions.consoleLog(finalParagraph); 
+                await interaction.reply({ content: `${targetLanguage.MessageSuccess} ${text}`, ephemeral: true });
             } catch (error) { // 取得或撥放音頻時發生錯誤
                 functions.consoleLog(error);
-                await interaction.reply("該文字無法正常撥放!");
+                await interaction.reply({ content: "該文字無法正常撥放!", ephemeral: true });
             }
         } else { // 不在語音頻道中
             functions.consoleLog(`Bot 不在語音室內`); // 記錄機器人不在語音頻道中的訊息
-            await interaction.reply("我不在語音室內呦..."); // 回覆訊息，表示機器人不在語音頻道中
+            await interaction.reply({ content: "我不在語音室內呦...", ephemeral: true }); // 回覆訊息，表示機器人不在語音頻道中
         }
     }
 };

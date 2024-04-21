@@ -1,9 +1,25 @@
 {
   "LanguageOptions": {
-    "zh-tw": "中文",
-    "en": "英文",
-    "ja": "日文",
-    "ko": "韓文"
+    "zh-tw": {
+      "Description": "中文",
+      "ParagraphHeader": "說",
+      "MessageSuccess": "已說出"
+    },
+    "en": {
+      "Description": "英文",
+      "ParagraphHeader": "said",
+      "MessageSuccess": "spoken"
+    },
+    "ja": {
+      "Description": "日文",
+      "ParagraphHeader": "と言う",
+      "MessageSuccess": "話した"
+    },
+    "ko": {
+      "Description": "韓文",
+      "ParagraphHeader": "다고",
+      "MessageSuccess": "말한"
+    }
   },
   "chat_react": [
     {
@@ -15,5 +31,5 @@
       "react": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
     }
   ],
-  "VoiceChatLanguage": "ja"
+  "VoiceChatLanguage": "zh-tw"
 }

@@ -16,7 +16,7 @@ module.exports = {
                 adapterCreator: interaction.guild.voiceAdapterCreator, // 語音適配器的創建者
             }); 
             functions.consoleLog(`加入語音室 ${voiceChannel.name} `); // 記錄加入語音頻道的訊息到控制台
-            await interaction.reply(`喔耶! 我加入了 ${voiceChannel.name} 語音室`); // 回覆加入語音頻道成功的訊息
+            await interaction.reply(`我加入了 ${voiceChannel.name} 語音室，來聽聽我說了啥吧～`); // 回覆加入語音頻道成功的訊息
         } else { // 如果使用者不在語音頻道中
             functions.consoleLog(`不在任何語音室`); // 記錄不在任何語音頻道的訊息到控制台
             await interaction.reply(`你不在任何語音室喔`); // 回覆使用者不在語音頻道的訊息

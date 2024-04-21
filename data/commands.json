@@ -23,6 +23,10 @@
             "description": "[-] 離開語音室"
         },
         {
+            "name": "lang",
+            "description": "[language] BOT 目前語音的語言風格"
+        },
+        {
             "name": "speak",
             "description": "[vc] 讓BOT幫你在語音室發言",
             "options": [

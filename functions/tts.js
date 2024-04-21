@@ -6,13 +6,14 @@ module.exports = {
     /**
      * 下載 Google TTS 音檔
      * @param {string} text - 要轉換成音檔的文字
+     * @param {string} language - 語言風格
      */
-    async downloadTTS(text) {
+    async downloadTTS(text, language) {
         // 定義儲存路徑和檔案名稱
         const outputPath = path.join(__dirname, '..', 'Audios', 'output.mp3'); 
 
         // 定義 Google TTS 的 URL
-        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=${encodeURIComponent(text)}`;
+        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${language}&q=${encodeURIComponent(text)}`;
 
         try {
             // 發送 GET 請求獲取音檔

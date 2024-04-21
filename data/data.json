@@ -1,4 +1,10 @@
 {
+  "LanguageOptions": {
+    "zh-tw": "中文",
+    "en": "英文",
+    "ja": "日文",
+    "ko": "韓文"
+  },
   "chat_react": [
     {
       "name": "dog",
@@ -8,5 +14,6 @@
       "name": "eatfast",
       "react": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
     }
-  ]
+  ],
+  "VoiceChatLanguage": "ja"
 }

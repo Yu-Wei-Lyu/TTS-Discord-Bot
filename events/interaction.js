@@ -19,7 +19,9 @@ module.exports = {
         } else if (interaction.isModalSubmit()) { // 如果互動為模態提交
             require(`../commands/${interaction.customId}.js`).modalSubmit(interaction); // 呼叫模態提交處理函式
         } else if (interaction.isButton()) { // 如果互動為按鈕
-            require(`../commands/${interaction.customId}.js`).buttonClick(interaction); // 呼叫按鈕點擊處理函式
+            // 解析 button 中的信息
+            const [interactionCustomId, buttonId] = interaction.customId.split('/');
+            require(`../commands/${interactionCustomId}.js`).buttonClick(interaction, buttonId); // 呼叫按鈕點擊處理函式
         } else { // 如果互動不符合以上任何類型
             return; // 結束函式
         }

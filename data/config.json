@@ -22,7 +22,12 @@
           "name": "/leave",
           "value": "**[l]** 退出語音室",
           "inline": false
-        },   
+        },  
+        {
+          "name": "/lang",
+          "value": "**[language]** 切換語音播放的語言風格",
+          "inline": false
+        }, 
         {
           "name": "/speak <content>",
           "value": "**[t]** 將你輸入的文字 在語音室裡播放",

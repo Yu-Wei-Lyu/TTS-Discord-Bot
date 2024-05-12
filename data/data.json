@@ -31,5 +31,70 @@
       "react": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
     }
   ],
-  "VoiceChatLanguage": "zh-tw"
+  "VoiceChatLanguage": "zh-tw",
+  "tttSession": {
+    "1018132475077210182": {
+      "player1": "YellowDuck7",
+      "player2": "",
+      "blank": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "690183512380538911": {
+      "player1": "YellowDuck7",
+      "player2": "",
+      "blank": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "769817588754284549": {
+      "player1": "瑋³",
+      "player2": "",
+      "blank": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  }
 }

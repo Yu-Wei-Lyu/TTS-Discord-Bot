@@ -37,6 +37,10 @@
                     "required": true
                 }
             ]
+        },
+        {
+            "name": "play",
+            "description": "[p] 遊玩小遊戲"
         }
     ]
 }

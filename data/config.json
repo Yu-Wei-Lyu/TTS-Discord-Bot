@@ -39,6 +39,11 @@
           "inline": false
         },  
         {
+          "name": "/play",
+          "value": "**[p]** 選擇遊玩的小遊戲",
+          "inline": false
+        },  
+        {
           "name": "關鍵字",
           "value": "**[k]** 根據關鍵字讓BOT發出圖片",
           "inline": false

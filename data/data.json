@@ -21,24 +21,26 @@
       "MessageSuccess": "말한"
     }
   },
-  "chat_react": [
+  "ImageData": [
     {
-      "name": "dog",
-      "react": "https://cdn.discordapp.com/attachments/1075254787307749427/1116177328024846377/dog_point_at_you.png"
+      "Label": "dog",
+      "Description": "Dog pointing at you",
+      "Source": "https://cdn.discordapp.com/attachments/1075254787307749427/1116177328024846377/dog_point_at_you.png"
     },
     {
-      "name": "eatfast",
-      "react": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
+      "Label": "eatfast",
+      "Description": "Capoo eat and drint quickly",
+      "Source": "https://tenor.com/view/tkthao219-capoo-cat-gif-26479263"
     }
   ],
   "VoiceChatLanguage": "zh-tw",
-  "tttSession": {
-    "1018132475077210182": {
+  "Tic-Tac-Toe(井字遊戲)": {
+    "undefined": {
       "player1": "YellowDuck7",
       "player2": "",
-      "blank": [
+      "blanks": [
         [
-          "",
+          "X",
           "",
           ""
         ],
@@ -52,16 +54,125 @@
           "",
           ""
         ]
-      ]
+      ],
+      "messageId": "1239192127834030180",
+      "message": {
+        "channelId": "690183512380538911",
+        "guildId": "690183512376344726",
+        "id": "1239192127834030180",
+        "createdTimestamp": 1715516826352,
+        "type": 0,
+        "system": false,
+        "content": "Tic-tac-toe Mini-game\n**Player1: YellowDuck7** \n**Player2:**",
+        "authorId": "1067667318450167879",
+        "pinned": false,
+        "tts": false,
+        "nonce": null,
+        "embeds": [],
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_00"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_01"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_02"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_10"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_11"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_12"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_20"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_21"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_22"
+              }
+            ]
+          }
+        ],
+        "attachments": [],
+        "stickers": [],
+        "position": null,
+        "roleSubscriptionData": null,
+        "resolved": null,
+        "editedTimestamp": null,
+        "mentions": {
+          "everyone": false,
+          "users": [],
+          "roles": [],
+          "crosspostedChannels": [],
+          "repliedUser": null,
+          "members": [],
+          "channels": []
+        },
+        "webhookId": null,
+        "groupActivityApplicationId": null,
+        "applicationId": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "interaction": null,
+        "cleanContent": "Tic-tac-toe Mini-game\n**Player1: YellowDuck7** \n**Player2:**"
+      }
     },
     "690183512380538911": {
       "player1": "YellowDuck7",
       "player2": "",
-      "blank": [
+      "blanks": [
         [
           "",
           "",
-          ""
+          "X"
         ],
         [
           "",
@@ -73,28 +184,116 @@
           "",
           ""
         ]
-      ]
-    },
-    "769817588754284549": {
-      "player1": "瑋³",
-      "player2": "",
-      "blank": [
-        [
-          "",
-          "",
-          ""
+      ],
+      "messageId": "1239198410926587934",
+      "message": {
+        "channelId": "690183512380538911",
+        "guildId": "690183512376344726",
+        "id": "1239198410926587934",
+        "createdTimestamp": 1715518324358,
+        "type": 0,
+        "system": false,
+        "content": "Tic-tac-toe Mini-game\n**Player1: YellowDuck7** \n**Player2:**",
+        "authorId": "1067667318450167879",
+        "pinned": false,
+        "tts": false,
+        "nonce": null,
+        "embeds": [],
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_00"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_01"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_02"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_10"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_11"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_12"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_20"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_21"
+              },
+              {
+                "type": 2,
+                "style": 1,
+                "label": ".",
+                "custom_id": "play/tttButton_22"
+              }
+            ]
+          }
         ],
-        [
-          "",
-          "",
-          ""
-        ],
-        [
-          "",
-          "",
-          ""
-        ]
-      ]
+        "attachments": [],
+        "stickers": [],
+        "position": null,
+        "roleSubscriptionData": null,
+        "resolved": null,
+        "editedTimestamp": null,
+        "mentions": {
+          "everyone": false,
+          "users": [],
+          "roles": [],
+          "crosspostedChannels": [],
+          "repliedUser": null,
+          "members": [],
+          "channels": []
+        },
+        "webhookId": null,
+        "groupActivityApplicationId": null,
+        "applicationId": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "interaction": null,
+        "cleanContent": "Tic-tac-toe Mini-game\n**Player1: YellowDuck7** \n**Player2:**"
+      }
     }
   }
 }

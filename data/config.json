@@ -44,7 +44,7 @@
           "inline": false
         },  
         {
-          "name": "關鍵字",
+          "name": "/image",
           "value": "**[k]** 根據關鍵字讓BOT發出圖片",
           "inline": false
         }

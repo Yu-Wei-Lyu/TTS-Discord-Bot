@@ -41,6 +41,10 @@
         {
             "name": "play",
             "description": "[p] 遊玩小遊戲"
+        },
+        {
+            "name": "image",
+            "description": "[img] 發送圖片"
         }
     ]
 }

@@ -22,7 +22,10 @@ module.exports = {
             // 解析 button 中的信息
             const [interactionCustomId, buttonId] = interaction.customId.split('/');
             require(`../commands/${interactionCustomId}.js`).buttonClick(interaction, buttonId); // 呼叫按鈕點擊處理函式
-        } else { // 如果互動不符合以上任何類型
+        } else if (interaction.isStringSelectMenu()) { // 如果互動為字串選單
+            require(`../commands/${interaction.customId}.js`).menuSelect(interaction); // 呼叫模態提交處理函式
+        } 
+        else { // 如果互動不符合以上任何類型
             return; // 結束函式
         }
     },
